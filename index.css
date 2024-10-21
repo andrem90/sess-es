@@ -1,0 +1,65 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura como 100% da viewport */
+    margin: 0; /* Remove as margens padrão */
+    background-color: #686363; /* Define a cor de fundo */
+}
+
+/* Estilos para o container principal */
+.container {
+    text-align: center; /* Centraliza o texto dentro do container */
+    background-color: rgb(158, 167, 178); /* Define a cor de fundo do container */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra suave */
+}
+
+/* Estilos para o elemento que exibe o contador */
+#contador {
+    font-size: 48px; /* Define o tamanho da fonte */
+    margin: 20px 0; /* Adiciona margem vertical */
+    font-family: 'Courier New', Courier, monospace; /* Define uma fonte monoespaçada */
+}
+
+/* Estilos gerais para os botões */
+button {
+    font-size: 18px; /* Define o tamanho da fonte */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    margin: 0 10px; /* Adiciona margem horizontal */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda os cantos */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+/* Estilos específicos para o botão "Iniciar" */
+#iniciar {
+    background-color: #4CAF50; /* Define a cor de fundo */
+}
+
+#iniciar:hover {
+    background-color: #45a049; /* Muda a cor de fundo ao passar o mouse */
+}
+
+/* Estilos específicos para o botão "Parar" */
+#parar {
+    background-color: #f44336; /* Define a cor de fundo */
+}
+
+#parar:hover {
+    background-color: #da190b; /* Muda a cor de fundo ao passar o mouse */
+}
+
+/* Estilos específicos para o botão "Reset" */
+#reset {
+    background-color: #008CBA; /* Define a cor de fundo */
+}
+
+#reset:hover {
+    background-color: #007399; /* Muda a cor de fundo ao passar o mouse */
+}
